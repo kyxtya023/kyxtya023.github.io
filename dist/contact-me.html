@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="icon" href="img/favicon\kaios.svg" type="image/svg"> -->
+   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap&_v=20221231205517" rel="stylesheet"> 
+   <link rel="stylesheet" href="css/style.min.css?_v=20221231205517">
+   <title>contact-me</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header" id="header">
+         <div class="header__inner">
+            <div class="header__myName">
+               <div>Ilia Chernyshevskii</div>
+            </div>
+            <nav class="header__menu">
+               <ul class="header__list">
+                  <li class="header__list-item"><a class="header__list-link"
+                        href="index.html">_hello</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="about-me.html">_about-me</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="projects.html">_projects</a></li>
+               </ul>
+               <div class="header__contact header__list-link--active">
+                  <a class="header__contact-link" href="contact-me.html">_contact-me</a>
+               </div>
+            </nav>
+            <nav class="header__burger">
+               <span></span>
+            </nav>
+         </div>
+      </header>
+      <aside class="aside">
+         <nav class="aside__wrapper">
+            <li class="aside__nav-list-item">
+               <a class="aside__nav-list-item-link" href="#">
+               <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.24998 6.85962L-3.10421e-05 0.85962L8.5 0.859619L4.24998 6.85962Z" fill="#607B96"/>
+               </svg>
+                  <p>contacts</p>
+               </a>
+               <div class="aside__contacts">
+                  <ul class="aside__contacts-list">
+                     <li class="aside__contacts-list-item"><img src="img/_about-me/mail-icon.svg" alt="Image"><a class="aside__contacts-list-item-link" href="mailto:kyxtya023@yandex.ru">kyxtya023@yandex.ru</a></li>
+                     <li class="aside__contacts-list-item"><img src="img/_about-me/phone-icon.svg" alt="Image"><a class="aside__contacts-list-item-link" href="+79526665544">+3598246359</a></li>
+                  </ul>
+               </div>
+            </li>
+            <li class="aside__nav-list-item">
+               <a class="aside__nav-list-item-link" href="#">
+               <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.24998 6.85962L-3.10421e-05 0.85962L8.5 0.859619L4.24998 6.85962Z" fill="#607B96"/>
+               </svg>
+                  <p>find-me-also-in</p>
+               </a>
+               <div class="aside__contacts">
+                  <ul class="aside__contacts-list">
+                     <li class="aside__contacts-list-item"><img src="img/contact-me/find-me.svg" alt="Image"><a class="aside__contacts-list-item-link" href="#">Discord profile</a></li>
+                     <li class="aside__contacts-list-item"><img src="img/contact-me/find-me.svg" alt="Image"><a class="aside__contacts-list-item-link" href="#">Telegram account</a></li>
+                     <li class="aside__contacts-list-item"><img src="img/contact-me/find-me.svg" alt="Image"><a class="aside__contacts-list-item-link" href="#">VK profile</a></li>
+                     <li class="aside__contacts-list-item"><img src="img/contact-me/find-me.svg" alt="Image"><a class="aside__contacts-list-item-link" href="#">Instagram account</a></li>
+                  </ul>
+               </div>
+            </li>
+         </nav>
+      </aside>
+      <main class="main">
+         <div class="contacts__wrapper">
+            <div class="contacts__inner">
+               <form class="contacts__form" action="#">
+                  <div class="contacts__form_block">
+                     <label class="contacts__form_label">_name:</label>
+                     <input class="contacts__form_input" type="text" placeholder="Ilia Chernyshevskii |">
+                  </div>
+                  <div class="contacts__form_block">
+                     <label class="contacts__form_label">_email:</label>
+                     <input class="contacts__form_input" type="text" placeholder="kyxtya023@yandex.ru">
+                  </div>
+                  <div class="contacts__form_block">
+                     <label class="contacts__form_label">_message:</label>
+                     <textarea class="contacts__form_textarea contacts__form_input" placeholder="Hey! Just checked your website and it looks awesome! Also, I checked your articled on Medium. Lerned a few nice tips. Thanks! |"></textarea>
+                  </div>
+                  <button class="contacts__form_btn" type="submit">submit-message</button>
+               </form>
+            </div>
+            <div class="message__wrapper">
+            <div class="message__inner">
+               <div class="message__block"><div class="message__number">1</div><div class="message__text"><span class="codePink">const </span><span class="codeBlue">button</span> <span class="codePink">=</span> <span class="codeBlue">document</span>.<span class="codeBlue">querySelector</span>(<span class="codeOrange">'#sendBtn'</span>);</div></div>
+               <div class="message__block"><div class="message__number">2</div></div>
+               <div class="message__block"><div class="message__number">3</div><div class="message__text"><span class="codePink">const </span><span class="codeBlue">message </span><span class="codePink">=</span> {</div></div>
+               <div class="message__block"><div class="message__number">4</div><div class="message__text"><div class="message__margin"><span class="codeBlue">name: </span><span class="codeOrange">"Jonathan Davis"</span>,</div></div></div>
+               <div class="message__block"><div class="message__number">5</div><div class="message__text"><div class="message__margin"><span class="codeBlue">email: </span><span class="codeOrange">"jonathan-davis@gmail.com"</span>,</div></div></div>
+               <div class="message__block message__block-message"><div class="message__number">6</div><div class="message__text"><div class="message__margin"><span class="codeBlue">message: </span><span class="codeOrange">"Hey! Just checked your website and it
+                  looks awesome! Also, I checked your articled on
+                  Medium. Lerned a few nice tips. Thanks!"</span>,</div></div></div>
+               <div class="message__block"><div class="message__number">7</div><div class="message__text"><div class="message__margin"><span class="codeBlue">date: </span><span class="codeOrange">"Thu 21 Apr"</span></div></div></div>
+               <div class="message__block"><div class="message__number">8</div><div class="message__text">}</div></div>
+               <div class="message__block"><div class="message__number">9</div><div class="message__text"></div></div>
+               <div class="message__block"><div class="message__number">10</div><div class="message__text"><span class="codeBlue">button</span>.<span class="codeBlue">addEventListener</span>(<span class="codeOrange">'click'</span>, () <span class="codePink">=></span> {</div></div>
+               <div class="message__block"><div class="message__number">11</div><div class="message__text"><div class="message__margin"><span class="codeBlue">form</span>.<span class="codeBlue">send(message)</span>;</div></div></div>
+               <div class="message__block"><div class="message__number">12</div><div class="message__text">});</div></div>
+            </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+    <div class="footer__inner">
+        <nav class="footer__nav">
+            <div class="footer__find">find me in:</div>
+            <div class="footer__socialWrapper">
+                <div class="footer__social-item">
+                    <a class="footer__social-link" href="#"><img src="img/Social-media/twitter.svg" alt="image"></a>
+                </div>
+                <div class="footer__social-item">
+                    <a class="footer__social-link" href="#"><img src="img/Social-media/facebook.svg" alt="image"></a>
+                </div>
+            </div>
+            <div class="footer__username">
+                <div>@username</div>
+                <img src="img/Social-media/username.svg" alt="Image">
+            </div>
+        </nav>
+    </div>
+</footer>
+      <script src="js/app.min.js?_v=20221231205517"></script>
+   </div>
+</body>
+
+</html>
