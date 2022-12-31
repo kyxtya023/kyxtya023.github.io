@@ -1,0 +1,181 @@
+{
+   "products": [
+      {
+         "id": 4,
+         "title": "Мужская зимняя куртка",
+         "text": "Night lamp",
+         "labels": "",
+         "image": "01.jpg",
+         "price": "999",
+         "reviews": "23"
+      },
+      {
+         "id": 5,
+         "title": "Женская коллекция",
+         "text": "Small mug",
+         "labels": [
+            {
+               "type": "sale",
+               "value": "-50%"
+            },
+            {
+               "type": "new",
+               "value": "New"
+            },
+            {
+               "type": "hot",
+               "value": "hot"
+            }
+         ],
+         "image": "02.jpg",
+         "price": "499",
+         "reviews": "1"
+      },
+      {
+         "id": 6,
+         "title": "Женские солнцезащитные очки",
+         "text": "Cute bed set",
+         "labels": [
+            {
+               "type": "sale",
+               "value": "-50%"
+            }
+         ],
+         "image": "03.jpg",
+         "price": "799",
+         "reviews": "2"
+      },
+      {
+         "id": 7,
+         "title": "Мужская кожаная куртка",
+         "text": "Minimalist flower pot",
+         "labels": [
+            {
+               "type": "new",
+               "value": "New"
+            }
+         ],
+         "image": "04.jpg",
+         "price": "599$",
+         "reviews": "65"
+      },
+      {
+         "id": 8,
+         "title": "Мужская зимняя куртка",
+         "text": "Night lamp",
+         "labels": "",
+         "image": "01.jpg",
+         "price": "999",
+         "reviews": "23"
+      },
+      {
+         "id": 9,
+         "title": "Женская коллекция",
+         "text": "Small mug",
+         "labels": [
+            {
+               "type": "sale",
+               "value": "-50%"
+            },
+            {
+               "type": "new",
+               "value": "New"
+            },
+            {
+               "type": "hot",
+               "value": "hot"
+            }
+         ],
+         "image": "02.jpg",
+         "price": "499",
+         "reviews": "87"
+      },
+      {
+         "id": 10,
+         "title": "Женские солнцезащитные очки",
+         "text": "Cute bed set",
+         "labels": [
+            {
+               "type": "sale",
+               "value": "-50%"
+            }
+         ],
+         "image": "03.jpg",
+         "price": "799",
+         "reviews": "33"
+      },
+      {
+         "id": 11,
+         "title": "Мужская кожаная куртка",
+         "text": "Minimalist flower pot",
+         "labels": [
+            {
+               "type": "new",
+               "value": "New"
+            }
+         ],
+         "image": "04.jpg",
+         "price": "599",
+         "reviews": "32"
+      },
+      {
+         "id": 12,
+         "title": "Мужская зимняя куртка",
+         "text": "Night lamp",
+         "labels": "",
+         "image": "01.jpg",
+         "price": "999",
+         "reviews": "13"
+      },
+      {
+         "id": 13,
+         "title": "Женская коллекция",
+         "text": "Small mug",
+         "labels": [
+            {
+               "type": "sale",
+               "value": "-50%"
+            },
+            {
+               "type": "new",
+               "value": "New"
+            },
+            {
+               "type": "hot",
+               "value": "hot"
+            }
+         ],
+         "image": "02.jpg",
+         "price": "499",
+         "reviews": "28"
+      },
+      {
+         "id": 14,
+         "title": "Женские солнцезащитные очки",
+         "text": "Cute bed set",
+         "labels": [
+            {
+               "type": "sale",
+               "value": "-50%"
+            }
+         ],
+         "image": "03.jpg",
+         "price": "799",
+         "reviews": "91"
+      },
+      {
+         "id": 15,
+         "title": "Мужская кожаная куртка",
+         "text": "Minimalist flower pot",
+         "labels": [
+            {
+               "type": "new",
+               "value": "New"
+            }
+         ],
+         "image": "04.jpg",
+         "price": "599",
+         "reviews": "47"
+      }
+   ]
+}
