@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Gina';
+  src: local('Gina Light'), local('Gina-Light'),
+      url('Gina-Light.woff2') format('woff2'),
+      url('Gina-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gina';
+  src: local('Gina'), local('Gina-Regular'),
+      url('Gina-Regular.woff2') format('woff2'),
+      url('Gina-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gina';
+  src: local('Gina Thin'), local('Gina-Thin'),
+      url('Gina-Thin.woff2') format('woff2'),
+      url('Gina-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
